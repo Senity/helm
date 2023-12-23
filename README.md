@@ -1,6 +1,6 @@
 # Contents
 
-### Frappe/ERPNext Helm Chart
+### Senity/ERPNext DEV Helm Chart
 
 Helm Chart to deploy a *frappe-bench*-like environment on Kubernetes. It adds following resources:
 

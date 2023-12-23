@@ -1,4 +1,4 @@
-# Frappe / ERPNext
+# Senity / ERPNext - DEV
 
 [Frappe](https://frappe.io)/[ERPNext](https://erpnext.com) Free and Open Source Enterprise Resource Planning (ERP).
 

@@ -229,13 +229,13 @@ persistence:
   worker:
     enabled: true
     # existingClaim: ""
-    size: 8Gi
+    size: 20Gi
     storageClass: "nfs"
   logs:
     # Container based log search and analytics stack recommended
     enabled: true
     # existingClaim: ""
-    size: 8Gi
+    size: 10Gi
     storageClass: "nfs"
 
 # Ingress

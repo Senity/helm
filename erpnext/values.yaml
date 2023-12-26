@@ -228,15 +228,15 @@ socketio:
 persistence:
   worker:
     enabled: true
-    # existingClaim: ""
-    size: 20Gi
-    storageClass: "nfs"
+    existingClaim: "erp-storage-single"
+    # size: 20Gi
+    # storageClass: "nfs"
   logs:
     # Container based log search and analytics stack recommended
     enabled: true
-    # existingClaim: ""
-    size: 10Gi
-    storageClass: "nfs"
+    existingClaim: "erp-storage-single"
+    # size: 10Gi
+    # storageClass: "nfs"
 
 # Ingress
 ingress:

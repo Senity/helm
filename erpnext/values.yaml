@@ -344,7 +344,8 @@ serviceAccount:
   create: true
 
 podSecurityContext:
-  supplementalGroups: [1000]
+  # supplementalGroups: [1000]
+  supplementalGroups: [0]
 
 securityContext:
   capabilities:
@@ -353,6 +354,7 @@ securityContext:
   # readOnlyRootFilesystem: true
   # runAsNonRoot: true
   # runAsUser: 1000
+  runAsUser: 0
 
 redis-cache:
   # https://github.com/bitnami/charts/tree/master/bitnami/redis

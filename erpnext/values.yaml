@@ -229,14 +229,14 @@ persistence:
   worker:
     enabled: true
     existingClaim: "erp-storage"
-    # size: 20Gi
-    # storageClass: "nfs"
+    size: 8Gi
+    storageClass: "nfs"
   logs:
     # Container based log search and analytics stack recommended
     enabled: true
     existingClaim: "erp-storage"
-    # size: 10Gi
-    # storageClass: "nfs"
+    size: 2Gi
+    storageClass: "nfs"
 
 # Ingress
 ingress:
